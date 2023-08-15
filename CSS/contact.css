@@ -1,12 +1,10 @@
 * {
     margin: 0 auto;
     padding: 0 auto;
-    
 }
 
 .cuerpo {
     background-color: #38AECC;
-    width: 100vw;
 }
 
 /*Estilos de cabecera*/
@@ -19,7 +17,6 @@
     border-bottom: 2px solid #046E8F;
     align-items: center;
 }
-
 
 .header__titulo {
     margin: 0px;
@@ -56,46 +53,50 @@
 
 /*Estilos de main*/
 
-.main {
-    margin: 0px;
-    padding: 0px;
-    margin-top: 10%;
-    color: white;
-}
-
 .main__section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
     justify-content: center;
 }
 
-.section__article-us {
-    margin: 20%;
-    height: auto;
+.section__article {
+    margin-top: 20%;
+    height: 80%;
+    background-color: #046E8F;
     justify-content: center;
+    border-radius: 10px;
+    align-items: center;
 }
 
 .article__titulo {
-    margin-bottom: 10%;
     text-align: center;
+    color: white;
 }
 
-.info {
-    margin: 10% 0 10% 0;
-}
-
-.article__img {
-    text-align: center;
-}
-
-.article__img img {
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-}
-
-.article__parf {
+#formulario {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
+
+.formulario__list {
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.formulario__list li label {
+    color: white;
+}
+
+.list__input {
+    margin: 25px 0 25px 0;
+    height: 40px;
+    width: 250px;
+}
+
 
 /*Fin de Estilos de main*/
 
