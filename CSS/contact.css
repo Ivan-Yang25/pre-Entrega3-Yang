@@ -12,7 +12,7 @@
 .header {
     overflow-x: hidden;
     height: 100px;
-    width: 100vw;
+    width: 100%;
     background-color: #183446;
     border-bottom: 2px solid #046E8F;
     align-items: center;
@@ -55,14 +55,14 @@
 
 .main__section {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 
 .section__article {
-    margin-top: 20%;
+    padding-bottom: 10px;
     height: 80%;
     background-color: #046E8F;
     justify-content: center;
@@ -105,7 +105,6 @@
 footer {
     height: 100px;
     background-color: #183446;
-    border-bottom: 2px solid #046E8F;
     text-align: center;
     align-items: center;
 }
