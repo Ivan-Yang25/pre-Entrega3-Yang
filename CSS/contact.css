@@ -131,7 +131,7 @@
     .section__article {
         width: 80%;
     }
-}
+};
 
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -155,7 +155,7 @@
         width: 80%;
     }
 
-} 
+};
 
 /*Small tablets*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -183,7 +183,7 @@
     .section__article {
         width: 60%;
     }
-}
+};
 /*Fin de Estilos de main*/
 
 /*Estilos de footer*/

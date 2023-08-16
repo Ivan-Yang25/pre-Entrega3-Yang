@@ -149,7 +149,7 @@
         order: 2;
     }
 
-}
+};
 
 /*Extra small devices*/
 @media (min-width: 481px) and (max-width: 767px) {
@@ -178,7 +178,7 @@
         order: 2;
     }
 
-} 
+};
 
 /*Small tablets*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -212,7 +212,7 @@
     .article__parf {
         font-size: 13px;
     }
-}
+};
 
 /*Large tablets/Laptops*/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -223,7 +223,7 @@
         height: 350px;
         margin: 30px 0 30px 0;
     }
-}
+};
 
 /*Desktop*/
 @media (min-width: 1200px) and (max-width: 1919px) {
