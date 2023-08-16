@@ -189,9 +189,7 @@
 /*Estilos de footer*/
 
 .footer {
-    display: flex;
     height: 100px;
-    width: 100%;
     background-color: #183446;
     text-align: center;
     align-items: center;
