@@ -10,6 +10,8 @@
 /*Estilos de cabecera*/
 
 .header {
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
     height: 100px;
     width: 100%;
     background-color: #183446;
@@ -17,8 +19,8 @@
     align-items: center;
 }
 
+
 .header__titulo {
-    margin: 0px;
     margin-left: 20px;
     font-size: 30px;
     color: white;
@@ -34,8 +36,11 @@
 
 
 .header__list {
+    display: flex;
+    justify-content: space-around;
     margin: 0px;
     text-align: center;
+    align-items: center;
     list-style: none;
 }
 
@@ -51,6 +56,7 @@
 /*Fin de Estilos de cabecera*/
 
 /*Estilos de main*/
+
 
 .main__section {
     display: flex;
