@@ -1,0 +1,56 @@
+@mixin justify {
+    justify-content: center;
+};
+
+.cuerpo {
+    background-color: #38AECC;
+    width: 100%;
+}
+
+
+.main {
+    padding: 0px;
+    margin-top: 5%;
+    color: white;
+    @include justify;
+
+    .main__section {
+        @include justify;
+
+        .section__article-us {
+
+            height: auto;
+            @include justify;
+
+            .article__titulo {
+                margin-bottom: 10%;
+                text-align: center;
+            }
+
+            .info {
+                margin: 10% 0 10% 0;
+
+                .article__img {
+                    text-align: center;
+
+                    img {
+                        width: 500px;
+                        height: 500px;
+                        border-radius: 10px;
+                    }
+                }
+
+                .article__parf {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

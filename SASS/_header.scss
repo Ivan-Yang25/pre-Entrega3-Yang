@@ -1,0 +1,53 @@
+@import 'variables';
+
+.header {
+
+    height: 100px;
+    width: 100%;
+    background-color: $color-header;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    .header__titulo {
+
+        color: $color-texto;
+        margin-left: 15px;
+        
+
+        .header__titulo-color {
+
+            color: $color-hover;
+            width: 20px;
+            transition: all 1s;
+            
+            &:hover {
+                
+                width: 40px;
+                color: $color-hover;
+            }
+        }
+    }
+
+    .header__list {
+
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+
+        .ul__list {
+
+            a {
+                text-decoration: none;
+                color: $color-texto;
+                font-size: 15px;
+                transition: color 1s;
+
+                &:hover {
+                    color: $color-hover;
+                }       
+            }
+        }
+    }
+}

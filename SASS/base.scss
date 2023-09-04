@@ -1,0 +1,11 @@
+/*Estilos generales*/
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+
+@import 'header';
+@import 'main';
+@import 'media_queries';
+@import 'footer';
