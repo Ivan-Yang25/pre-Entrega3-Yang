@@ -1,0 +1,13 @@
+@import 'variables';
+
+.footer {
+    height: 100px;
+    background-color: $color-header;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ 
+    .footer__text {
+        color: $color-texto;
+    }
+}

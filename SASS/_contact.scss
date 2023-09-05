@@ -1,0 +1,86 @@
+.main__section {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .section__article {
+        padding-bottom: 10px;
+        height: 80%;
+        background-color: #046E8F;
+        justify-content: center;
+        border-radius: 10px;
+        align-items: center;
+
+        .article__titulo {
+            text-align: center;
+            color: white;
+        }
+
+        #formulario {
+            display: flex;
+            justify-content: center;
+
+            .formulario__list {
+                padding: 0px;
+                list-style: none;
+                text-align: center;
+
+                .list__input {
+                    margin: 25px 0 25px 0;
+                    height: 40px;
+                    width: 250px;
+                }
+                
+            }
+
+            .formulario__list li label {
+                color: white;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile*/
+@media (max-width: 480px) {
+    
+    .header {
+        grid-template-columns: 1fr ;
+        height: 150px;
+        justify-content: center;
+        
+    }
+
+    .header__titulo {
+        margin: 0px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }
+
+    .header__list {
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .main__section {
+        min-height: 80vh;
+    }
+
+    .section__article {
+        width: 80%;
+    }
+};

@@ -1,0 +1,64 @@
+.cuerpo {
+    background-color: #38AECC;
+    width: 100%;
+}
+
+.principal {
+    
+    display: grid;
+    width: 80%;
+    min-height: 100vh;
+    margin-bottom: 10%;
+    
+    .principal__section {
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        
+
+        .section__titulo-adoptar {
+
+            font-size: 50px;
+            margin-top: 10%;
+            height: 100px;
+            color: black;
+    
+        }
+
+        .section__div {
+            display: grid;
+            height: 80vh;
+            width: 80%;
+            justify-content: center;
+            align-items: center;
+
+            .div__card {
+                
+                margin: 0px;
+                width: 100%;
+                height: auto;
+                border: 1px solid black;
+                background-color: #EAE0CC;
+                align-items: center;
+    
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+
+                div {
+                    
+                    display: grid;
+                    width: 100%;
+                    height: 100%;
+                    place-items: center;
+
+                    .boton {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+}

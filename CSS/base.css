@@ -79,6 +79,154 @@
   align-items: center;
 }
 
+.main__section {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.main__section .section__article {
+  padding-bottom: 10px;
+  height: 80%;
+  background-color: #046E8F;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+}
+.main__section .section__article .article__titulo {
+  text-align: center;
+  color: white;
+}
+.main__section .section__article #formulario {
+  display: flex;
+  justify-content: center;
+}
+.main__section .section__article #formulario .formulario__list {
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+.main__section .section__article #formulario .formulario__list .list__input {
+  margin: 25px 0 25px 0;
+  height: 40px;
+  width: 250px;
+}
+.main__section .section__article #formulario .formulario__list li label {
+  color: white;
+}
+
+/*Mobile*/
+@media (max-width: 480px) {
+  .header {
+    grid-template-columns: 1fr;
+    height: 150px;
+    justify-content: center;
+  }
+  .header__titulo {
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+  .header__list {
+    padding: 0px;
+    justify-content: center;
+  }
+  .main__section {
+    min-height: 80vh;
+  }
+  .section__article {
+    width: 80%;
+  }
+}
+.cuerpo {
+  background-color: #38AECC;
+  width: 100%;
+}
+
+.principal {
+  display: grid;
+  width: 80%;
+  min-height: 100vh;
+  margin-bottom: 10%;
+}
+.principal .principal__section {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+.principal .principal__section .section__titulo-adoptar {
+  font-size: 50px;
+  margin-top: 10%;
+  height: 100px;
+  color: black;
+}
+.principal .principal__section .section__div {
+  display: grid;
+  height: 80vh;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.principal .principal__section .section__div .div__card {
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  background-color: #EAE0CC;
+  align-items: center;
+}
+.principal .principal__section .section__div .div__card img {
+  width: 150px;
+  height: 150px;
+}
+.principal .principal__section .section__div .div__card div {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+}
+.principal .principal__section .section__div .div__card div .boton {
+  width: 100px;
+  height: 100px;
+}
+
+.sobre-mi {
+  width: 80%;
+  height: 100%;
+  margin-top: 10%;
+}
+.sobre-mi .sobre-mi__section {
+  display: grid;
+  justify-content: center;
+}
+.sobre-mi .sobre-mi__section .section__article-sobre-mi {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+}
+.sobre-mi .sobre-mi__section .section__article-sobre-mi .section__titulo-sobre-mi {
+  font-size: 50px;
+}
+.sobre-mi .sobre-mi__section .section__article-sobre-mi .article__div {
+  margin-top: 10%;
+}
+.sobre-mi .sobre-mi__section .section__article-sobre-mi .article__div img {
+  border-radius: 100px;
+  border: 5px solid #4D6A6D;
+  width: 400px;
+  transition: all 2s;
+}
+.sobre-mi .sobre-mi__section .section__article-sobre-mi .article__div img:hover {
+  border: 5px solid #DBB68F;
+  width: 500px;
+}
+.sobre-mi .sobre-mi__section .section__article-sobre-mi .article__parrafo {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
   .header {
     grid-template-columns: 1fr;
@@ -134,6 +282,36 @@
     height: 350px !important;
     margin: 30px 0 30px 0;
   }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main__section {
+    min-height: 90vh;
+  }
+  .section__article {
+    width: 60%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  img {
+    border-radius: 100px;
+    border: 5px solid #4D6A6D;
+    width: 300px !important;
+    transition: all 2s;
+  }
+  img:hover {
+    border: 5px solid #DBB68F;
+    width: 400px !important;
+  }
+}
+.footer {
+  height: 100px;
+  background-color: #DBB68F;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer__text {
+  color: #4D6A6D;
 }
 
 /*# sourceMappingURL=base.css.map */
